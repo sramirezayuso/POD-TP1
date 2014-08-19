@@ -5,7 +5,7 @@
 * MuleSoft. If such an agreement is not in place, you may not use the software.
 */
 
-package it.itba.pod.helloworld;
+package it.itba.pod.helloworldexecutor;
 
 import java.util.logging.Logger;
 
