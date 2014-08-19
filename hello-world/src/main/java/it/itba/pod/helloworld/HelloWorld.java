@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 public class HelloWorld implements Runnable
 {
 
-    private static final Logger logger = Logger.getLogger(HelloWorld.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(HelloWorld.class.getName());
 
     private int delay;
 
@@ -30,11 +30,11 @@ public class HelloWorld implements Runnable
             {
                 Thread.sleep(delay * 1000);
                 long threadId = Thread.currentThread().getId();
-                logger.info("Hello World! - Thread ID: " + threadId);
+                LOGGER.info("Hello World! - Thread ID: " + threadId);
             } catch (InterruptedException e)
             {
                 //Should not happen
-                logger.severe("This shouldn't have happened!");
+                LOGGER.severe("This shouldn't have happened!");
             }
         }
     }
