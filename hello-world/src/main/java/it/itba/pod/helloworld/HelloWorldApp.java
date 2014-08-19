@@ -9,7 +9,7 @@ package it.itba.pod.helloworld;
 
 public class HelloWorldApp
 {
-    public static final int THREAD_NUM = 10;
+    private static final int THREAD_NUM = 10;
 
     public static void main(String[] args)
     {

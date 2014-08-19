@@ -5,16 +5,16 @@
 * MuleSoft. If such an agreement is not in place, you may not use the software.
 */
 
-package it.itba.pod.helloworldexecutor;
+package it.itba.pod.helloworld;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
 public class HelloWorldExecutorApp
 {
-    public static final int THREAD_NUM = 10;
+    private static final int THREAD_NUM = 10;
 
-    public static final Executor executor = Executors.newFixedThreadPool(10);
+    private static final Executor executor = Executors.newFixedThreadPool(10);
 
     public static void main(String[] args)
     {
