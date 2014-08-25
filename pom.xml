@@ -28,6 +28,7 @@
         <module>hello-world-executor</module>
         <module>counter</module>
         <module>counter-executor</module>
+        <module>producer-consumer</module>
     </modules>
 
 </project>
