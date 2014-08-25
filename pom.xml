@@ -30,6 +30,7 @@
         <module>counter-executor</module>
         <module>producer-consumer</module>
         <module>producer-consumer-executor</module>
+        <module>deadlock</module>
     </modules>
 
 </project>
